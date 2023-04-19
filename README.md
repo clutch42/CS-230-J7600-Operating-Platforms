@@ -10,22 +10,14 @@ The part I would revise would be the developement requirements. I think I did a 
 
 In the application, I interpreted the users needs by creating classes that inherited from each other, and made sure that there was only one instance of the gameservice, with unlimited number of games in it, with unlimited number of teams in each game, and umlimited number of players in each team. I added a function in each of these classes to print out with a tab inward so I could test it easily and have it be easily readable like so:
 
-  game 1
-  
-    team 1
-    
-      player 1
-      
-      player 2
-      
-    team 2
-    
-      player 1
-      
-  game 2
-  
-    team 1
-    
-      player 1
-    
+- game 1
+  - team 1
+    - player 1
+    - player 2
+  - team 2
+    - player 1
+- game 2
+  - team 1
+    - player 1
+
 For designing the software, most of the time was used on researching what operating system would fulfill the users requirements, how to manage the memory, how to deal with the storage, and how to implement the application on multiple operating systems. I would probably use the same technique of dividing the project up into these seperate components for the next application I design, and probably use Google sooner rather than later.
